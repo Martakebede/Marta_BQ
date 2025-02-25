@@ -1,12 +1,10 @@
 version: v1.2
 name: msft-data
-description: Microsoft POC
+description: To create GSC and SeoClarity Dashboards for Microsoft
 status: building
 docs: https://docs.google.com/document/d/1XMB0s2Etmkh5qmYuj4GhErVyuMdrLRkeMU-gCsqCmdg/edit?tab=t.0
 business-owner: marta.kebede
 uses-sensitive-data: false
-meta:
-  ignore: false
 technical-owner: raehankhanbli
 maintainers:
   - raehankhanbli
@@ -17,8 +15,8 @@ apis:
 public-info:
   reach: general-client-tool
   platforms:
-    - gcp
+    - google-cloud-platform
 deployments:
-  - type: gcp
-    project-name: msft-data
+  - type: google-cloud-platform
+    project-id: msft-data
     budget: 100
